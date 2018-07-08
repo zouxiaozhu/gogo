@@ -61,6 +61,7 @@ func Insert(c *gin.Context) {
 	id, err := service.InsertBook("books", form)
 	if err != nil {
 		log.Fatalln(err)
+
 		return
 	}
 
