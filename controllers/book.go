@@ -64,7 +64,7 @@ func Insert(c *gin.Context) {
 
 		return
 	}
-
+	log.Fatalln(111)
 	c.JSON(http.StatusOK, gin.H{
 		"success": strings.Trim(strconv.FormatInt(id, 10) + " ", " " ),
 		"code": 0,
