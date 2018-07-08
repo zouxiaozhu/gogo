@@ -69,5 +69,6 @@ func Insert(c *gin.Context) {
 		"success": strings.Trim(strconv.FormatInt(id, 10) + " ", " " ),
 		"code": 0,
 		"msg": form,
+
 	})
 }
